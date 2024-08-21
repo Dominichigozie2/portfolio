@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="shortcut icon" href="img/thumbnail-1.ico" type="image/x-icon">
   <!-- bootstrap css -->
   <link rel="stylesheet" href="css/plugins/bootstrap.min-1.css">
@@ -21,7 +24,7 @@
 <body>
 
 
-    <section class="hero">
+    <section class="hero" id="home">
         <div class="container hero-container">
             <div class="bg-cover"></div>
             <div class="hero-content">
@@ -89,43 +92,86 @@
                 <div class="project-filters">
                     <button data-filter="all" class="active-filter">All</button>
                     <button data-filter="frontend">Frontend</button>
-                    <button data-filter="backend">Backend</button>
-                    <button data-filter="fullstack">Full Stack</button>
+                    <button data-filter="backend">WordPress</button>
+                    <button data-filter="fullstack">Graphics</button>
                 </div>
             </div>
             <div class="projects-container">
                 <div class="project-box" data-category="frontend">
-                    <img src="./images/projects/Macbook-Air-dominichigozie2.github.io (1).png" alt="">
+                    <img src="./images/projects/realestate.png" alt="">
                   <div class="project-content">
-                    <h3>Frontend Project 1</h3>
-                  <a href="#">view Demo <i class="fa-solid fa-angle-right"></i></a>
+                    <h3>Realestate Agency</h3>
+                  <a href="https://dominichigozie2.github.io/realestate/">view Demo <i class="fa-solid fa-angle-right"></i></a>
+                  </div>
+                </div>
+                <div class="project-box" data-category="frontend">
+                    <img src="./images/projects/Macbook-Air-dominichigozie2.github.io (2).png" alt="">
+                  <div class="project-content">
+                    <h3>E-commerce website Design</h3>
+                  <a href="https://dominichigozie2.github.io/chiars/">view Demo <i class="fa-solid fa-angle-right"></i></a>
+                  </div>
+                </div>
+                <div class="project-box" data-category="frontend">
+                    <img src="./images/projects/mouse.png" alt="">
+                  <div class="project-content">
+                    <h3>Product Portfolio</h3>
+                  <a href="https://dominichigozie2.github.io/wirelessmousce/">view Demo <i class="fa-solid fa-angle-right"></i></a>
+                  </div>
+                </div>
+                <div class="project-box hide" data-category="frontend">
+                    <img src="./images/projects/Macbook-Air-dominichigozie2.github.io (4).png" alt="">
+                  <div class="project-content">
+                    <h3>Sports betting Site Template</h3>
+                  <a href="https://dominichigozie2.github.io/games/">view Demo <i class="fa-solid fa-angle-right"></i></a>
+                  </div>
+                </div>
+                <div class="project-box" data-category="frontend">
+                    <img src="./images/projects/Macbook-Air-dominichigozie2.github.io (5).png" alt="">
+                  <div class="project-content">
+                    <h3>EPaypower User dashboard</h3>
+                  <a href="https://dominichigozie2.github.io/EPayPower/dashboard1/">view Demo <i class="fa-solid fa-angle-right"></i></a>
+                  </div>
+                </div>
+                <!-- <div class="project-box" data-category="frontend">
+                    <img src="./images/projects/admin.png" alt="">
+                  <div class="project-content">
+                    <h3>Admin Dashboard</h3>
+                  <a href="https://dominichigozie2.github.io/admin">view Demo <i class="fa-solid fa-angle-right"></i></a>
+                  </div>
+                </div> -->
+                <!-- WordPress -->
+                <div class="project-box" data-category="backend">
+                    <img src="./images/projects/Krisoral.png" alt="">
+                  <div class="project-content">
+                    <h3>Krisoral & Company LTD</h3>
+                  <a href="https://dominichigozie2.github.io/EPayPower/dashboard1/">view Demo <i class="fa-solid fa-angle-right"></i></a>
                   </div>
                 </div>
                 <div class="project-box" data-category="backend">
-                    <img src="./images/projects/Macbook-Air-dominichigozie2.github.io (2).png" alt="">
+                    <img src="./images/projects/Macbook-Air-traceoflife.org.png" alt="">
                   <div class="project-content">
-                    <h3>Backend Project 1</h3>
+                    <h3>TraceOfLife Blog website</h3>
+                  <a href="https://traceoflife.org">view Demo <i class="fa-solid fa-angle-right"></i></a>
+                  </div>
+                </div>
+                <div class="project-box" data-category="backend">
+                    <img src="./images/projects/Macbook-Air-www.exactnews.free.nf.png" alt="">
+                  <div class="project-content">
+                    <h3>exactnews Sport blog</h3>
+                  <a href="https://exactnews.free.nf">view Demo <i class="fa-solid fa-angle-right"></i></a>
+                  </div>
+                </div>
+                <div class="project-box" data-category="fullstack">
+                    <img src="./images/projects/Kira Choco.jpg" alt="">
+                  <div class="project-content">
+                    <h3>exactnews Sport blog</h3>
                   <a href="#">view Demo <i class="fa-solid fa-angle-right"></i></a>
                   </div>
                 </div>
                 <div class="project-box" data-category="fullstack">
-                    <img src="./images/projects/Macbook-Air-dominichigozie2.github.io (3).png" alt="">
+                    <img src="./images/projects/genny bis packet2.jpg" alt="">
                   <div class="project-content">
-                    <h3>Full Stack Project 1</h3>
-                  <a href="#">view Demo <i class="fa-solid fa-angle-right"></i></a>
-                  </div>
-                </div>
-                <div class="project-box" data-category="frontend">
-                    <img src="./images/projects/Macbook-Air-dominichigozie2.github.io (4).png" alt="">
-                  <div class="project-content">
-                    <h3>Frontend Project 2</h3>
-                  <a href="#">view Demo <i class="fa-solid fa-angle-right"></i></a>
-                  </div>
-                </div>
-                <div class="project-box" data-category="backend">
-                    <img src="./images/projects/Macbook-Air-dominichigozie2.github.io (5).png" alt="">
-                  <div class="project-content">
-                    <h3>Backend Project 2</h3>
+                    <h3>exactnews Sport blog</h3>
                   <a href="#">view Demo <i class="fa-solid fa-angle-right"></i></a>
                   </div>
                 </div>
@@ -230,10 +276,249 @@
             </div>
         </div>
     </section>
+    <section class="testmonial">
+        <div class="test-container container">
+            <h4>recommendations</h4>
+
+            <div class="carousel">
+                  <!-- Swiper -->
+            <div class="swiper mySwiper test_container">
+                <div class="swiper-wrapper test-wrapper">
+                <div class="swiper-slide test-box">
+                    <div class="heading">
+                                <h5>title section <span>Author</span>
+                                </h5>
+                                
+                            <div class="author-image">
+                                <img src="./images/face.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="career-content">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere reiciendis dolore dignissimos iste nobis laboriosam architecto? At error quisquam eum!</p>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                </div>
+                <div class="swiper-slide test-box">
+                    <div class="heading">
+                                <h5>title section <span>Author</span>
+                                </h5>
+                                
+                            <div class="author-image">
+                                <img src="./images/face.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="career-content">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere reiciendis dolore dignissimos iste nobis laboriosam architecto? At error quisquam eum!</p>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                </div>
+                <div class="swiper-slide test-box">
+                    <div class="heading">
+                                <h5>title section <span>Author</span>
+                                </h5>
+                                
+                            <div class="author-image">
+                                <img src="./images/face.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="career-content">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere reiciendis dolore dignissimos iste nobis laboriosam architecto? At error quisquam eum!</p>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                </div>
+                <div class="swiper-slide test-box">
+                    <div class="heading">
+                                <h5>title section <span>Author</span>
+                                </h5>
+                                
+                            <div class="author-image">
+                                <img src="./images/face.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="career-content">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere reiciendis dolore dignissimos iste nobis laboriosam architecto? At error quisquam eum!</p>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                </div>
+                <div class="swiper-slide test-box">
+                    <div class="heading">
+                                <h5>title section <span>Author</span>
+                                </h5>
+                                
+                            <div class="author-image">
+                                <img src="./images/face.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="career-content">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere reiciendis dolore dignissimos iste nobis laboriosam architecto? At error quisquam eum!</p>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                </div>
+                <div class="swiper-slide test-box">
+                    <div class="heading">
+                                <h5>title section <span>Author</span>
+                                </h5>
+                                
+                            <div class="author-image">
+                                <img src="./images/face.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="career-content">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere reiciendis dolore dignissimos iste nobis laboriosam architecto? At error quisquam eum!</p>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="contact-container container">
+            <div class="contact-info">
+                <div class="contact-box">
+                    <h5>country<span>Nigeria</span></h5>                        
+                    <h5>State<span>Anambra</span></h5>                        
+                </div>
+                <div class="contact-box">
+                    <h5>Email<span>chigoziedomnic@gmail.com</span></h5>                                        
+                    <h5>GitHub<span>github.com/Dominichigozie2</span></h5>                                        
+                </div>
+                <div class="contact-box">
+                    <h5>WhatsApp <span>+234 911 425 0604</span></h5>                    
+                    <h5>phone<span>+234 704 658 6037</span></h5>                    
+                </div>
+            </div>
+            <h4>Get in touch</h4>
+            <form action="#">
+                <div class="input-field">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" name="name" placeholder="Name" 
+                           required
+                           pattern="^[A-Za-z][A-Za-z\s'-]{2,}$"
+                           title="Please enter a valid full name (at least 3 characters)">
+                </div>
+
+                <div class="input-field">
+                    <i class="fa-solid fa-at"></i>
+                    <input type="email" name="name" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                </div>
+                <div class="input-field">
+                    <i class="fa-solid fa-envelope"></i>
+                    <textarea name="message" placeholder="Message" required></textarea>    
+                </div>
+                    <button type="submit">Send message</button>
+            </form>
+        </div>
+    </section>
+
+    <a href="#home" class="to-top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+
+    <footer>
+        <p>Copyright &copy; 2022 dominichigozie. All rights reserved</p>
+        <div class="media">
+            <a href="https://github.com/Dominichigozie2"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/dominic-chigozie-624938241/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://x.com/ChigozieDomnic"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.instagram.com/chigoziedominiq/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+            <a href="wa.link/non4nm"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100092587473421"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+   var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    loop: true,
+    freeMode: true,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false, // Keeps autoplay running after interaction
+    },
+    breakpoints: {
+        // when window width is >= 320px
+        200: {
+            slidesPerView: 1,
+            spaceBetween: 10
+        },
+        // when window width is >= 480px
+        750: {
+            slidesPerView: 1,
+            spaceBetween: 20
+        },
+        // when window width is >= 768px
+        800: {
+            slidesPerView: 2,
+            spaceBetween: 30
+        },
+        // when window width is >= 1024px
+        1024: {
+            slidesPerView: 3,
+            spaceBetween: 30
+        }
+    }
+});
 
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    document.querySelector('.mySwiper').addEventListener('mouseover', function() {
+    swiper.autoplay.stop();
+    });
 
+    document.querySelector('.mySwiper').addEventListener('mouseleave', function() {
+    swiper.autoplay.start();
+    });
+
+  </script>
   <!-- jquery js -->
   <script src="js/plugins/jquery.min-1.js"></script>
   <!-- anime js -->
@@ -253,7 +538,6 @@
   <!-- fancybox js -->
   <script src="js/plugins/fancybox.min-1.js"></script>
   <!-- swup js -->
-  <script src="js/plugins/swup.min-1.js"></script>
   <script>
     $(document).ready(function() {
         $('button').on('click', function() {
@@ -284,7 +568,21 @@
                 }
             }, 300); // Start showing after the hide animation completes
         });
-        $('button[data-filter="all"]').trigger('click');
+        $('button[data-filter="frontend"]').trigger('click');
+    });
+
+  </script>
+  <script>
+    $(document).ready(function() {
+        // Scroll to top when the link is clicked
+        $('.to-top').on('click', function(e) {
+            e.preventDefault(); // Prevent default anchor behavior
+
+            // Animate the scroll to top
+            $('html, body').animate({
+                scrollTop: 0
+            }, 800); // Duration of the scroll animation (in milliseconds)
+        });
     });
 </script>
 </body>
