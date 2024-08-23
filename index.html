@@ -7,33 +7,47 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
      <!-- Link Swiper's CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="shortcut icon" href="img/thumbnail-1.ico" type="image/x-icon">
-  <!-- bootstrap css -->
-  <link rel="stylesheet" href="css/plugins/bootstrap.min-1.css">
-  <!-- font awesome css -->
+    
   <link rel="stylesheet" href="css/plugins/font-awesome.min-1.css">
   <!-- swiper css -->
   <link rel="stylesheet" href="css/plugins/swiper.min-1.css">
-  <!-- fancybox css -->
-  <link rel="stylesheet" href="css/plugins/fancybox.min-1.css">
-    <!-- link css link -->
      <link rel="stylesheet" href="./css/style.css">
     <!-- link css link -->
     <title>Dominic Chigozie</title>
 </head>
 <body>
 
+    <header>
+        <div class="container nav-container">
+            <div class="logo"><img src="./images/logo1.png" alt="logo">
+            </div>
+            <div class="right">
+                <ul>
+                    <li class="active"><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">project</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#career">Career</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+                <i class="fa fa-bars bar"></i>
+            </div>
+        </div>
+    </header>
 
     <section class="hero" id="home">
         <div class="container hero-container">
-            <div class="bg-cover"></div>
-            <div class="hero-content">
+                <div class="bg-cover"></div>
+                <div class="hero-content">
                 <h1>Discover my amazing web space</h1>
                 <div class="art-lg-text art-code mb-25"><p> I build <span class="txt-rotate" data-period="2000" data-rotate='[ "web interfaces.","design mockups." ]'></p></div>
-
+                    <br>
                     <a href="#" class="btn btn-primary">Explore more</a>
+                </div>
+                <!-- <div class="hero-image">
+                    <img src="./images/logo1.png" alt="">
+                </div> -->
             </div>
-        </div>
     </section>
     <div class="flex-details container">
         <div class="details-box"><span>10+</span>years of experience</div>
@@ -42,7 +56,7 @@
             Happy Customers</div>
         <div class="details-box"><span>20+</span>Honors and Awards</div>
     </div>
-    <section class="services">
+    <section class="services" id="services">
         <div class="container service-container">
             <h4>my services</h4>
             <div class="service-box-container">
@@ -85,7 +99,7 @@
             </div>
         </div>
     </section>
-    <section class="project">
+    <section class="project" id="project">
         <div class="container project-container">
             <div class="work-menu">
                 <h4>Recent Projects</h4>
@@ -93,6 +107,7 @@
                     <button data-filter="all" class="active-filter">All</button>
                     <button data-filter="frontend">Frontend</button>
                     <button data-filter="backend">WordPress</button>
+                    <button data-filter="UI">UI/UX</button>
                     <button data-filter="fullstack">Graphics</button>
                 </div>
             </div>
@@ -130,6 +145,14 @@
                   <div class="project-content">
                     <h3>EPaypower User dashboard</h3>
                   <a href="https://dominichigozie2.github.io/EPayPower/dashboard1/">view Demo <i class="fa-solid fa-angle-right"></i></a>
+                  </div>
+                </div>
+                <!-- UI/UX -->
+                <div class="project-box" data-category="UI">
+                    <img src="./images/projects/music UI.jpg" alt="">
+                  <div class="project-content">
+                    <h3>Music Website UI design</h3>
+                  <a href="#">view Demo <i class="fa-solid fa-angle-right"></i></a>
                   </div>
                 </div>
                 <!-- <div class="project-box" data-category="frontend">
@@ -178,7 +201,7 @@
             </div>
         </div>
     </section>
-    <section class="career">
+    <section class="career" id="career">
         <div class="container career-container">
             <div class="career-row">
                 <h5>Education</h5>
@@ -186,97 +209,83 @@
                     <div class="career-box">
                         <div class="heading">
                             
-                                <h5>title section <span>Author</span></h5>
+                                <h5>Information and technology <span>Diploma</span></h5>
                                 
                             <h6 class="date">
-                                jan 2018 - may 2021
+                               May/2024
                             </h6>
                         </div>
                         <div class="career-content">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, delectus?</p>
-                            <a href="#" class="read-more">read more <i class="fa-solid fa-angle-right"></i></a>
+                            <p>Completed a 2-year course in computer information and technology at <strong style="color: aliceblue;">John Bosco Institute of Technology, Ibolo, Obosi,</strong> followed by a 6-month internship.</p>
+                            <a href="https://www.linkedin.com/posts/dominic-chigozie-624938241_a-great-congratulations-to-me-on-my-convocation-activity-7192437972955238400-_okn?utm_source=share&utm_medium=member_desktop" class="read-more">read more <i class="fa-solid fa-angle-right"></i></a>
                         </div>
                     </div>
                     <div class="career-box">
                         <div class="heading">
                             
-                                <h5>title section <span>Author</span></h5>
+                                <h5>West Africa Senior School Certificate<span>WASSCE</span></h5>
                                 
                             <h6 class="date">
-                                jan 2018 - may 2021
+                                may 2021
                             </h6>
                         </div>
                         <div class="career-content">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, delectus?</p>
-                            <a href="#" class="read-more">read more <i class="fa-solid fa-angle-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="career-box">
-                        <div class="heading">
-                            
-                                <h5>title section <span>Author</span></h5>
-                                
-                            <h6 class="date">
-                                jan 2018 - may 2021
-                            </h6>
-                        </div>
-                        <div class="career-content">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, delectus?</p>
+                            <p>"Graduated from <strong style="color: aliceblue;">St. Michael's Model Comprehensive School, Nimo,</strong> with a strong academic foundation and key skills for future success."</p>
                             <a href="#" class="read-more">read more <i class="fa-solid fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="career-row">
-                <h5>Experience</h5>
+                <h5>Recent work Experience</h5>
                 <div class="career-col">
                     <div class="career-box">
                         <div class="heading">
                             
-                                <h5>title section <span>Author</span></h5>
+                                <h5>Web Developer <span>Krisoral & company LTD</span></h5>
                                 
                             <h6 class="date">
-                                jan 2018 - may 2021
+                               Recent
                             </h6>
                         </div>
                         <div class="career-content">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, delectus?</p>
-                            <a href="#" class="read-more">read more <i class="fa-solid fa-angle-right"></i></a>
+                            <p>"Enhanced website functionality and user experience at Krisoral and Company LTD by developing custom features and optimizing performance, leading to a significant increase in client engagement and satisfaction."</p>
+                            <a href="krisoral.com" class="read-more">view <i class="fa-solid fa-angle-right"></i></a>
                         </div>
                     </div>
                     <div class="career-box">
                         <div class="heading">
                             
-                                <h5>title section <span>Author</span></h5>
+                                <h5>Front-end developer <span>Okdes</span></h5>
                                 
                             <h6 class="date">
-                                jan 2018 - may 2021
+                                June 2024
                             </h6>
                         </div>
                         <div class="career-content">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, delectus?</p>
-                            <a href="#" class="read-more">read more <i class="fa-solid fa-angle-right"></i></a>
+                            <p>"Led UI/UX redesigns at Okdes, boosting site performance and user engagement with cutting-edge front-end solutions, resulting in a more intuitive and visually appealing web experience."</p>
+                            <a href="#" class="read-more">view <i class="fa-solid fa-angle-right"></i></a>
                         </div>
                     </div>
                     <div class="career-box">
                         <div class="heading">
                             
-                                <h5>title section <span>Author</span></h5>
+                                <h5>Wordpress Developer<span>Krisoral Group of company</span></h5>
                                 
                             <h6 class="date">
-                                jan 2018 - may 2021
+                               may - 2024
                             </h6>
                         </div>
                         <div class="career-content">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, delectus?</p>
-                            <a href="#" class="read-more">read more <i class="fa-solid fa-angle-right"></i></a>
+                            <p>"Developed and optimized WordPress sites at Krisoral Group, enhancing functionality and user experience with custom themes and plugins, leading to improved site performance and client satisfaction."</p>
+                            <a href="krisoralgroup.com" class="read-more">View <i class="fa-solid fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="testmonial">
+    <section class="testmonial" id="testmonial">
         <div class="test-container container">
             <h4>recommendations</h4>
 
@@ -410,19 +419,22 @@
             </div>
         </div>
     </section>
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="contact-container container">
             <div class="contact-info">
                 <div class="contact-box">
-                    <h5>country<span>Nigeria</span></h5>                        
+                    <h5>country<span>Nigeria</span></h5>
+                    <br>                        
                     <h5>State<span>Anambra</span></h5>                        
                 </div>
                 <div class="contact-box">
                     <h5>Email<span>chigoziedomnic@gmail.com</span></h5>                                        
+                    <br>                        
                     <h5>GitHub<span>github.com/Dominichigozie2</span></h5>                                        
                 </div>
                 <div class="contact-box">
                     <h5>WhatsApp <span>+234 911 425 0604</span></h5>                    
+                    <br>                        
                     <h5>phone<span>+234 704 658 6037</span></h5>                    
                 </div>
             </div>
@@ -465,7 +477,7 @@
         </div>
     </footer>
 
-    <script src="js/script.js"></script>
+    <script src="/js/script.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -510,7 +522,7 @@
 });
 
 
-    document.querySelector('.mySwiper').addEventListener('mouseover', function() {
+document.querySelector('.mySwiper').addEventListener('mouseover', function() {
     swiper.autoplay.stop();
     });
 
@@ -521,22 +533,9 @@
   </script>
   <!-- jquery js -->
   <script src="js/plugins/jquery.min-1.js"></script>
-  <!-- anime js -->
-  <script src="js/plugins/anime.min-1.js"></script>
-  <!-- swiper js -->
   <script src="js/plugins/swiper.min-1.js"></script>
-  <!-- progressbar js -->
-  <script src="js/plugins/progressbar.min-1.js"></script>
-  <!-- smooth scrollbar js -->
-  <script src="js/plugins/smooth-scrollbar.min-1.js"></script>
-  <!-- overscroll js -->
-  <script src="js/plugins/overscroll.min-1.js"></script>
   <!-- typing js -->
   <script src="js/plugins/typing.min-1.js"></script>
-  <!-- isotope js -->
-  <script src="js/plugins/isotope.min-1.js"></script>
-  <!-- fancybox js -->
-  <script src="js/plugins/fancybox.min-1.js"></script>
   <!-- swup js -->
   <script>
     $(document).ready(function() {
@@ -573,17 +572,46 @@
 
   </script>
   <script>
-    $(document).ready(function() {
-        // Scroll to top when the link is clicked
-        $('.to-top').on('click', function(e) {
-            e.preventDefault(); // Prevent default anchor behavior
+   $(document).ready(function() {
+    var toTopBtn = $('.to-top');
 
-            // Animate the scroll to top
-            $('html, body').animate({
-                scrollTop: 0
-            }, 800); // Duration of the scroll animation (in milliseconds)
-        });
+    // Detect scroll event
+    $(window).scroll(function() {
+        // Show button when scrolled 150px away from hero section
+        if ($(window).scrollTop() > 350) {
+            toTopBtn.fadeIn();  // Show with fade effect
+        } else {
+            toTopBtn.fadeOut(); // Hide with fade effect
+        }
     });
-</script>
+
+    // Smooth scroll to top when button is clicked
+    toTopBtn.click(function(e) {
+        e.preventDefault();
+        $('html, body').animate({ scrollTop: 0 }, 700); // Smooth scroll to top with 700ms
+    });
+});
+
+
+
+    $(document).ready(function() {
+    // Smooth scrolling
+    $('a[href^="#"]').on('click', function(e) {
+        e.preventDefault();
+        
+        var target = $(this).attr('href');
+        var targetPosition = $(target).offset().top;
+        
+        $('html, body').animate({
+            scrollTop: targetPosition
+        }, 700); // 700ms for the smooth scroll
+        
+        // Change the active class
+        $('ul li').removeClass('active');
+        $(this).parent().addClass('active');
+    });
+});
+
+  </script>
 </body>
 </html>
