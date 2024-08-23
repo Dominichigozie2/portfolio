@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);stroke:#000000;stroke-miterlimit:10;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_2_);stroke:#000000;stroke-miterlimit:10;}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="818.9655" y1="488.5667" x2="737.1129" y2="586.3351">
+	<stop  offset="0" style="stop-color:#FFFFFF"/>
+	<stop  offset="0.1726" style="stop-color:#9C9C9C"/>
+	<stop  offset="0.4289" style="stop-color:#E9E9E9"/>
+	<stop  offset="0.703" style="stop-color:#767676"/>
+	<stop  offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<path class="st0" d="M812.25,627.75L709,524.5l-16.29-16.29c11.75,10.15,27.05,16.29,43.79,16.29h67v76.62
+	C803.5,611.35,806.81,620.46,812.25,627.75z"/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="939.0714" y1="371.1053" x2="611.6609" y2="653.0422">
+	<stop  offset="0" style="stop-color:#FFC107"/>
+	<stop  offset="0.1726" style="stop-color:#FF9207"/>
+	<stop  offset="0.4289" style="stop-color:#FFC128"/>
+	<stop  offset="0.703" style="stop-color:#D85549"/>
+	<stop  offset="1" style="stop-color:#FFAB1E"/>
+</linearGradient>
+<path class="st1" d="M937.5,524.5c0,24.43-6.64,47.32-18.22,67c-11.75,19.97-28.6,36.62-48.78,48.21c-0.2,0.11-0.39,0.23-0.59,0.34
+	c-20.75,11.76-44.98,4.69-57.66-12.3c-5.44-7.29-8.75-16.4-8.75-26.63v-10.13c36.5-0.26,66-29.93,66-66.49s-29.5-66.23-66-66.49
+	v-0.51h-67v67c-16.74,0-32.04-6.14-43.79-16.29l-0.06-0.05c-1.22-1.05-2.39-2.14-3.53-3.28C677,492.75,669.5,476,669.5,457.5v-67
+	h134v1c24.41,0,47.29,6.48,67,17.79c20.18,11.59,37.03,28.24,48.78,48.21C930.86,477.18,937.5,500.07,937.5,524.5z"/>
+</svg>
