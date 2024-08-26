@@ -2,6 +2,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const bar = document.querySelector('.bar');
     const right = document.querySelector('header');
     
+    console.log(right, bar);
+    
+
     bar.addEventListener('click', function() {
         // If the navigation is collapsed
         if (!right.classList.contains('expanded')) {
