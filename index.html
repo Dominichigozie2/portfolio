@@ -72,40 +72,35 @@
             <div class="service-box-container">
                 <div class="service-box">
                     <h5>Web development</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.
+                    <p>Let's create a digital masterpiece tailored to your unique vision. From sleek designs to robust functionality, I'll build websites that not only impress but convert.
                     </p>
                     <a href="#">order now <i class="fa-solid fa-angle-right"></i></a>
                 </div>
                 <div class="service-box">
                     <h5>Web design</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.
+                    <p>Let's transform your ideas into a visually stunning website that leaves a lasting impression. I'll craft designs that are both aesthetically pleasing and functional, ensuring your brand shines online.
                     </p>
                     <a href="#">order now <i class="fa-solid fa-angle-right"></i></a>
                 </div>
                 <div class="service-box">
                     <h5>Graphics design</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.
+                    <p>Let's create visuals that resonate with your audience and elevate your brand. From logos to social media graphics, I'll craft designs that are both eye-catching and impactful.
                     </p>
                     <a href="#">order now <i class="fa-solid fa-angle-right"></i></a>
                 </div>
                 <div class="service-box">
-                    <h5>Word Press</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.
+                    <h5>WordPress</h5>
+                    <p>Let's harness the flexibility and versatility of WordPress to create a dynamic and engaging website. I'll design and develop a custom WordPress solution tailored to your specific needs.
                     </p>
                     <a href="#">order now <i class="fa-solid fa-angle-right"></i></a>
                 </div>
                 <div class="service-box">
                     <h5>Content Writing</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.
+                    <p>Let's craft compelling content that resonates with your target audience. From blog to website copy, I'll create engaging and informative content that helps you achieve your goals.
                     </p>
                     <a href="#">order now <i class="fa-solid fa-angle-right"></i></a>
                 </div>
-                <div class="service-box">
-                    <h5>Advertisement</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.
-                    </p>
-                    <a href="#">order now <i class="fa-solid fa-angle-right"></i></a>
-                </div>
+               
             </div>
         </div>
     </section>
@@ -165,13 +160,13 @@
                   <a href="#">view Demo <i class="fa-solid fa-angle-right"></i></a>
                   </div>
                 </div>
-                <div class="project-box" data-category="frontend">
+                <!-- <div class="project-box" data-category="frontend">
                     <img src="./images/projects/admin.png" alt="">
                   <div class="project-content">
                     <h3>Admin Dashboard</h3>
                   <a href="https://dominichigozie2.github.io/admin">view Demo <i class="fa-solid fa-angle-right"></i></a>
                   </div>
-                </div>
+                </div> -->
                 <!-- WordPress -->
                 <div class="project-box" data-category="backend">
                     <img src="./images/projects/Krisoral.png" alt="">
@@ -604,24 +599,38 @@ document.querySelector('.mySwiper').addEventListener('mouseover', function() {
 
 
 
-    $(document).ready(function() {
+$(document).ready(function() {
     // Smooth scrolling
     $('a[href^="#"]').on('click', function(e) {
         e.preventDefault();
-        
+
         var target = $(this).attr('href');
         var targetPosition = $(target).offset().top;
-        
+
         $('html, body').animate({
             scrollTop: targetPosition
         }, 700); // 700ms for the smooth scroll
-        
+
         // Change the active class
         $('ul li').removeClass('active');
         $(this).parent().addClass('active');
     });
-});
 
+    // Add active class based on scroll position
+    $(window).scroll(function() {
+        var scrollPos = $(this).scrollTop();
+        $('section').each(function() {
+            var sectionId = $(this).attr('id');
+            var sectionTop = $(this).offset().top;
+            var sectionBottom = sectionTop + $(this).outerHeight();
+
+            if (scrollPos >= sectionTop && scrollPos < sectionBottom) {
+                $('ul li').removeClass('active');
+                $('a[href="#' + sectionId + '"]').parent().addClass('active');
+            }
+        });
+    });
+});
   </script>
 </body>
 </html>
