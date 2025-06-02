@@ -435,8 +435,6 @@ header{
                 transition: transform 0.3s ease, opacity 0.3s ease;
                 opacity: 0;
                 position: relative;
-                height: 20rem;
-                cursor: pointer;
 
                 img {
                     width: 100%;
@@ -552,6 +550,7 @@ header{
                     justify-content: start;
                     flex-direction: column;
                     position: relative;
+
 
 
                     &::before {
@@ -809,13 +808,23 @@ header{
                 display: flex;
                 justify-content: space-between;
                 font-size: 14px;
+                align-items: center;
                 gap: 1rem;
+                text-transform: capitalize;
 
                 span{
                     font-size: 11px;
                     letter-spacing: 2px;
                     color: var(--text-dark-200);
                     font-weight: 400;
+
+                    a{
+                    text-decoration: none;
+                    font-size: 10px;
+                    letter-spacing: 1px;
+                    color: var(--text-dark-200);
+                    font-weight: 400;
+                    }
                 }
             }
         }   
@@ -1086,7 +1095,7 @@ footer{
             
         }
     }
-   
+    
     /* .show-nav {
         height: fit-content;
     } */
