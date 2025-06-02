@@ -3,8 +3,8 @@
 
 :root {
     --main-color: #FFC107;
-    --dark-100: #1e1e28;
-    --dark-200: #2c2c38;
+    --dark-100: #2c2c2c;
+    --dark-200: #1a1b1d;
 
     --text-dark-100: #303030;
     --text-dark-200: #8c8c8e;
@@ -215,7 +215,9 @@ header{
     background: var(--dark-200);
     box-shadow: 0px 4px 10px rgba(163, 163, 163, 0.1); /* Optional: Add shadow when sticky */
 }
+
 /*=====Home Section ======== */
+
 .hero {
     margin: 2rem 0;
     display: flex;
@@ -976,7 +978,6 @@ footer{
     }
 }
 /* ======footer====== */
-
 
 
 
