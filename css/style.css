@@ -1086,9 +1086,7 @@ footer{
             
         }
     }
-    .expanded {
-        /* Expanded state handled by JS */
-    }
+   
     /* .show-nav {
         height: fit-content;
     } */
